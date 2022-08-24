@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 const { User } = require("../models/user");
 const express = require("express");
 const router = express.Router();
+require("express-async-errors");
 
 router.post("/", async (req, res) => {
   const { error } = validate(req.body);

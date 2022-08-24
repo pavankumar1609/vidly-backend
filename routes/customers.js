@@ -3,6 +3,7 @@ const auth = require("../middlewares/auth");
 const admin = require("../middlewares/admin");
 const express = require("express");
 const router = express.Router();
+require("express-async-errors");
 
 router.get("/", async (req, res) => {
   const customers = await Customer.find().sort("name");

@@ -4,6 +4,7 @@ const auth = require("../middlewares/auth");
 const admin = require("../middlewares/admin");
 const express = require("express");
 const router = express.Router();
+require("express-async-errors");
 
 router.get("/", async (req, res) => {
   const movies = await Movie.find().sort("title");
