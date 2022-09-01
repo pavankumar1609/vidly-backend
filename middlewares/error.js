@@ -16,7 +16,7 @@ function error(err, req, res, next) {
     ],
   });
 
-  // logger.error({ message: err.message, stack: err.stack });
+  logger.error({ message: err.message, stack: err.stack });
 
   res.status(500).send("Something failed.");
 }
