@@ -1,3 +1,4 @@
+const config = require("config");
 const winston = require("winston");
 const express = require("express");
 const app = express();
@@ -14,7 +15,7 @@ const logger = winston.createLogger({
   transports: [new winston.transports.Console()],
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || config.get("port");
 const server = app.listen(port, () => {
   logger.info(`Listening on port ${port}...`);
 });
