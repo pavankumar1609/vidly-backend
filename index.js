@@ -7,6 +7,7 @@ require("./startup/config")();
 require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/validation")();
+require("./startup/prod")(app);
 
 const logger = winston.createLogger({
   format: winston.format.simple(),

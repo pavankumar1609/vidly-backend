@@ -2,16 +2,17 @@ const request = require("supertest");
 const mongoose = require("mongoose");
 const { Genre } = require("../../../models/genre");
 const { User } = require("../../../models/user");
-let server;
 
 describe("api/genres", () => {
-  beforeEach(async () => {
+  let server;
+
+  beforeEach(() => {
     server = require("../../../index");
   });
 
   afterEach(async () => {
-    await Genre.deleteMany({});
     server.close();
+    await Genre.deleteMany({});
   });
 
   describe("GET /", () => {
@@ -188,6 +189,10 @@ describe("api/genres", () => {
         .set("x-auth-token", token);
     }
 
+    function admin() {
+      return new User({ isAdmin: true }).generateAuthToken();
+    }
+
     beforeEach(() => {
       genreId = new mongoose.Types.ObjectId();
       token = new User().generateAuthToken();
@@ -209,7 +214,7 @@ describe("api/genres", () => {
 
     it("should return 400 if invalid id is passed.", async () => {
       genreId = "123";
-      token = new User({ isAdmin: true }).generateAuthToken();
+      token = admin();
 
       const res = await exec();
 
@@ -217,19 +222,18 @@ describe("api/genres", () => {
     });
 
     it("should return 404 if genre with the given id was not exists.", async () => {
-      token = new User({ isAdmin: true }).generateAuthToken();
+      token = admin();
 
       const res = await exec();
 
       expect(res.status).toBe(404);
     });
 
-    it("should return 200 if genre with the given id is exists.", async () => {
-      let genre = new Genre({ name: "genre1" });
-      genre = await genre.save();
+    it("should return 200 if genre with the given id was exists.", async () => {
+      const genre = new Genre({ _id: genreId, name: "genre1" });
+      await genre.save();
 
-      token = new User({ isAdmin: true }).generateAuthToken();
-      genreId = genre._id;
+      token = admin();
 
       const res = await exec();
 
