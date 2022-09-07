@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "",
   "db": "",
-  "port": 3000,
+  "port": 5000,
   "requireAuth": true
 }
