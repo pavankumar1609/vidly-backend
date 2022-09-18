@@ -1,14 +1,48 @@
 {
-  message: 'connect ECONNREFUSED 127.0.0.1:27017',
-  stack: 'MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n' +
-    '    at Function.Model.$wrapCallback (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongoose\\lib\\model.js:5108:32)\n' +
-    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongoose\\lib\\query.js:4820:21\n' +
-    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n' +
-    '    at new Promise (<anonymous>)\n' +
-    '    at promiseOrCallback (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n' +
-    '    at model.Query.exec (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongoose\\lib\\query.js:4819:10)\n' +
-    '    at model.Query.Query.then (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongoose\\lib\\query.js:4902:15)\n' +
+  message: 'something failed.',
+  stack: 'Error: something failed.\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:11\n' +
     '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
   level: 'error',
-  timestamp: '2022-09-18T10:49:42.416Z'
+  timestamp: '2022-09-18T17:42:31.768Z'
+}
+{
+  message: 'something failed.',
+  stack: 'Error: something failed.\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-18T17:43:58.540Z'
+}
+{
+  message: 'something failed.',
+  stack: 'Error: something failed.\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-18T17:45:18.930Z'
+}
+{
+  message: 'smsk',
+  stack: 'Error: smsk\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-18T17:52:19.258Z'
+}
+{
+  message: 'dkmckdnc',
+  stack: 'Error: dkmckdnc\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\returns.js:35:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-18T18:15:12.654Z'
+}
+{
+  message: 'dkmckdnc',
+  stack: 'Error: dkmckdnc\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\returns.js:35:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-18T18:16:09.210Z'
 }

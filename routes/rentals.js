@@ -6,6 +6,7 @@ const auth = require("../middlewares/auth");
 const validateId = require("../middlewares/validateId");
 const express = require("express");
 const router = express.Router();
+const mongoose = require("mongoose");
 
 router.get("/", async (req, res) => {
   const rentals = await Rental.find().sort("-dateOut");
@@ -45,12 +46,24 @@ router.post("/", [auth, validator(validate)], async (req, res) => {
     },
   });
 
-  await rental.save();
+  const session = await mongoose.startSession();
+  session.startTransaction();
+  try {
+    await rental.save({ session });
 
-  movie.numberInStock--;
-  movie.save();
+    movie.numberInStock--;
+    await movie.save({ session });
 
-  res.send(rental);
+    await session.commitTransaction();
+    session.endSession();
+
+    res.send(rental);
+  } catch (error) {
+    await session.abortTransaction();
+    session.endSession();
+
+    throw error;
+  }
 });
 
 module.exports = router;
