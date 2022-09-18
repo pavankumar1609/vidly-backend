@@ -4,7 +4,6 @@ const bcrypt = require("bcrypt");
 const { User } = require("../models/user");
 const express = require("express");
 const router = express.Router();
-require("express-async-errors");
 
 router.post("/", [validator(validate)], async (req, res) => {
   const user = await User.findOne({ email: req.body.email });

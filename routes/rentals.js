@@ -6,7 +6,6 @@ const auth = require("../middlewares/auth");
 const validateId = require("../middlewares/validateId");
 const express = require("express");
 const router = express.Router();
-require("express-async-errors");
 
 router.get("/", async (req, res) => {
   const rentals = await Rental.find().sort("-dateOut");

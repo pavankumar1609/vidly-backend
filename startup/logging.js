@@ -1,3 +1,4 @@
+require("express-async-errors");
 const winston = require("winston");
 const { createLogger, transports, format } = winston;
 const { combine, timestamp, prettyPrint, colorize, metadata } = format;
