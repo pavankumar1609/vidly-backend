@@ -47,22 +47,21 @@ router.post("/", [auth, validator(validate)], async (req, res) => {
   });
 
   const session = await mongoose.startSession();
-  session.startTransaction();
   try {
+    session.startTransaction();
     await rental.save({ session });
 
     movie.numberInStock--;
     await movie.save({ session });
 
     await session.commitTransaction();
-    session.endSession();
-
     res.send(rental);
   } catch (error) {
     await session.abortTransaction();
-    session.endSession();
 
     throw error;
+  } finally {
+    session.endSession();
   }
 });
 

@@ -18,8 +18,8 @@ router.post("/", [auth, validator(validateReturn)], async (req, res) => {
   rental.return();
 
   const session = await mongoose.startSession();
-  session.startTransaction();
   try {
+    session.startTransaction();
     await rental.save({ session });
 
     await Movie.updateOne(
@@ -33,14 +33,13 @@ router.post("/", [auth, validator(validateReturn)], async (req, res) => {
     );
 
     await session.commitTransaction();
-    session.endSession();
-
     res.send(rental);
   } catch (error) {
     await session.abortTransaction();
-    session.endSession();
 
     throw error;
+  } finally {
+    session.endSession();
   }
 });
 

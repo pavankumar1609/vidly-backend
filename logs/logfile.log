@@ -46,3 +46,27 @@
   level: 'error',
   timestamp: '2022-09-18T18:16:09.210Z'
 }
+{
+  message: 'something faliled',
+  stack: 'Error: something faliled\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-19T04:36:40.630Z'
+}
+{
+  message: 'something faliled',
+  stack: 'Error: something faliled\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-19T04:37:37.902Z'
+}
+{
+  message: 'something faliled',
+  stack: 'Error: something faliled\n' +
+    '    at C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\routes\\rentals.js:54:11\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  timestamp: '2022-09-19T04:38:57.686Z'
+}
