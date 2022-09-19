@@ -45,7 +45,7 @@ async function seed() {
   await Genre.deleteMany({});
 
   for (let genre of data) {
-    const { _id: genreId } = await new Genre({ name: genre.name }).save();
+    const { _id: genreId } = await Genre.create({ name: genre.name });
     const movies = genre.movies.map((movie) => ({
       ...movie,
       genre: { _id: genreId, name: genre.name },
@@ -53,7 +53,7 @@ async function seed() {
     await Movie.insertMany(movies);
   }
 
-  mongoose.disconnect();
+  await mongoose.disconnect();
 
   console.info("Done!");
 }
