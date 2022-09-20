@@ -14,17 +14,17 @@ Once you install MongoDB, make sure it's running.
 
 Next, from the project folder, install the dependencies:
 
-npm i
+    npm i
 
 ## Populate the Database
 
-node seed.js
+    node seed.js
 
 ## Run the Tests
 
 You're almost done! Run the tests to make sure everything is working:
 
-## npm test
+    npm test
 
 All tests should pass.
 
