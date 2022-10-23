@@ -39,10 +39,10 @@ describe("api/genres", () => {
       expect(res.body).toHaveProperty("name", genre.name);
     });
 
-    it("should return 400 if invalid id passed.", async () => {
+    it("should return 404 if invalid id passed.", async () => {
       const res = await request(server).get("/api/genres/1");
 
-      expect(res.status).toBe(400);
+      expect(res.status).toBe(404);
     });
 
     it("should return 404 if genre with the given id was not exist.", async () => {
@@ -157,12 +157,12 @@ describe("api/genres", () => {
       expect(res.status).toBe(400);
     });
 
-    it("should return 400 if id is invalid", async () => {
+    it("should return 404 if id is invalid", async () => {
       id = "1";
 
       const res = await exec();
 
-      expect(res.status).toBe(400);
+      expect(res.status).toBe(404);
     });
 
     it("should return 404 if genre with the given id was not found", async () => {
@@ -227,12 +227,12 @@ describe("api/genres", () => {
       expect(res.status).toBe(403);
     });
 
-    it("should return 400 if id is invalid", async () => {
+    it("should return 404 if id is invalid", async () => {
       id = 1;
 
       const res = await exec();
 
-      expect(res.status).toBe(400);
+      expect(res.status).toBe(404);
     });
 
     it("should return 404 if no genre with the given id was found", async () => {

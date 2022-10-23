@@ -1,0 +1,160 @@
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:08:18.699Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:08:18.758Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:08:18.806Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:08:18.845Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:08:18.888Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:10:19.237Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:10:19.309Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:10:19.368Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:10:19.416Z'
+}
+{
+  message: 'Transaction numbers are only allowed on a replica set member or mongos',
+  stack: 'MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n' +
+    '    at Connection.onMessage (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:438:20)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\connection.ts:256:56)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:193:14)\n' +
+    '    at MessageStream._write (C:\\Users\\pavan\\OneDrive\\Desktop\\vidly-backend\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:70:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:527:28)',
+  level: 'error',
+  timestamp: '2022-10-23T04:10:19.459Z'
+}
